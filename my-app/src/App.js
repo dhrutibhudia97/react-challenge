@@ -1,12 +1,10 @@
-import css from './App.module.css';
-import Sidebar from './components/Sidebar';
+import "./App.css";
+import NestingComponents from "./components/NestingComponents";
 
 function App() {
-  return (
-    <div className={css.App}>
-      <Sidebar />
-    </div>
-  );
+  return <div className="App">
+      <NestingComponents />
+  </div>;
 }
 
 export default App;
