@@ -7,7 +7,8 @@ import "./App.css";
 // import Content from "./components/Content";
 // import LifeCyclesCDM from "./components/LifeCyclesCDM";
 // import LifeCyclesCDU from "./components/LifeCyclesCDU";
-import LifeCyclesCWU from "./components/LifeCyclesCWU";
+// import LifeCyclesCWU from "./components/LifeCyclesCWU";
+import ControlledForm from "./components/ControlledForm";
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
       <Content />
       <LifeCyclesCDM /> */}
       {/* <LifeCyclesCDU /> */}
-      <LifeCyclesCWU />
+      {/* <LifeCyclesCWU /> */}
+      <ControlledForm />
 
     </div>
   );
